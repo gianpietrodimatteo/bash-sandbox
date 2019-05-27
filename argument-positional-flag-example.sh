@@ -46,3 +46,9 @@ while test $# -gt 0; do
                         ;;
         esac
 done
+
+# Key points are:
+
+# $# is the number of arguments
+# while loop looks at all of the arguments supplied, matching on their values inside a case statement
+# shift takes the first one away. You can shift multiple times inside of a case statement to take multiple values.
